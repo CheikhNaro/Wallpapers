@@ -2,90 +2,25 @@
 
 A curated collection of **427 wallpapers** (~300 MB) — anime, manga, landscapes, cars, cyberpunk and abstract art.
 
-Almost everything is `.webp` (one `.png`), so the repo stays light while keeping good visual quality.
+Everything is `.webp`, so the repo stays light while keeping good visual quality.
 
-## Structure
+## Previews
 
-```
-.
-├── README.md
-└── images/          # all 427 wallpapers
-```
-
-## What's inside
-
-| Theme | Examples | Files |
-| --- | --- | --- |
-| Jujutsu Kaisen | Gojo, Yuji, Sukuna, Choso, Maki, Hakari | ~61 |
-| Chainsaw Man | Denji, Makima, Pochita, Power | ~29 |
-| Soul Eater | Moon & Sun, Death the Kid, Maka | ~24 |
-| Neon Genesis Evangelion | Unit-01, Rei, Asuka, posters | ~19 |
-| Berserk | Guts, Griffith, monochrome panels | ~17 |
-| Landscapes & hills | hills, forests, clouds, ocean, moon | ~30 |
-| Samurai & Musashi | Vagabond-inspired, red samurai | ~14 |
-| Cowboy Bebop | Spike, Faye, Ein, ship | ~11 |
-| Hunter x Hunter | Killua, Gon, Hisoka | ~9 |
-| Oil paintings | painterly scenery & portraits | ~8 |
-| Cars | JDM, red sports cars, retro | ~7 |
-| Others | Black Clover, Dragon Ball, GTO, Lain, One Piece, OPM, AoT, Kagurabachi, Death Note, Persona, Bleach, Naruto, FMA, Demon Slayer… | — |
-| Wallhaven / generic | wallhaven-*, wallpaper_* | ~56 |
-| Monochrome variants | any file ending in `_monochrome` | ~31 |
-
-> Counts are approximate — some files belong to several themes.
-
-## Formats & resolution
-
-- **426** × `.webp` + **1** × `.png`
-- WebP is supported everywhere in 2026, but if a tool chokes on it, convert first:
-
-```bash
-# single file
-magick input.webp output.png
-
-# whole folder
-for f in images/*.webp; do magick "$f" "${f%.webp}.png"; done
-```
-
-## Usage
-
-**Linux — set a wallpaper once**
-
-```bash
-# X11 / most WMs
-feh --bg-fill images/berserk.webp
-
-# Hyprland / Wayland (swww)
-swww img images/berserk.webp --transition-type wipe
-
-# Hyprland (hyprpaper) — add to hyprpaper.conf
-preload = /path/to/images/berserk.webp
-wallpaper = ,/path/to/images/berserk.webp
-```
-
-**Random wallpaper rotation**
-
-```bash
-# every 30 min on X11
-while true; do feh --randomize --bg-fill images/*.webp; sleep 1800; done
-```
-
-**Windows / macOS** — pick a file in `images/`, right-click → *Set as desktop background* / *Set Desktop Picture*.
-
-## Naming
-
-Filenames are mostly the original download names. Suffixes are meaningful:
-
-- `*_monochrome` — grayscale / black-and-white edit
-- `*_png`, `*_jpg` — trace of the original source format before conversion
-- `wallpaper_N`, `wallhaven-*` — generic wallhaven / wallpaperdump finds
-
-## Credits
-
-These images were collected from the web for personal use and are **not** my own artwork.
-All rights belong to their respective authors, studios and publishers. No license is granted by this repository.
-
-If you own the rights to an image and want it removed, open an issue and it will be deleted promptly.
-
-## Contributing
-
-Found a broken image or want to add to the collection? PRs and issues are welcome — just keep the `images/` folder flat and prefer `.webp`.
+| | | |
+|:---:|:---:|:---:|
+| [![4-ether](images/4-ether.webp)](images/4-ether.webp)<br><sub>4-ether.webp</sub> | [![ASN](images/ASN.webp)](images/ASN.webp)<br><sub>ASN.webp</sub> | [![bebop5](images/bebop5.webp)](images/bebop5.webp)<br><sub>bebop5.webp</sub> |
+| [![berserk10](images/berserk10.webp)](images/berserk10.webp)<br><sub>berserk10.webp</sub> | [![bigout](images/bigout.webp)](images/bigout.webp)<br><sub>bigout.webp</sub> | [![blackclover6](images/blackclover6.webp)](images/blackclover6.webp)<br><sub>blackclover6.webp</sub> |
+| [![bleach_png](images/bleach_png.webp)](images/bleach_png.webp)<br><sub>bleach_png.webp</sub> | [![car_red](images/car_red.webp)](images/car_red.webp)<br><sub>car_red.webp</sub> | [![carrr](images/carrr.webp)](images/carrr.webp)<br><sub>carrr.webp</sub> |
+| [![chainsawman1](images/chainsawman1.webp)](images/chainsawman1.webp)<br><sub>chainsawman1.webp</sub> | [![climb](images/climb.webp)](images/climb.webp)<br><sub>climb.webp</sub> | [![cloud pink](images/cloud%20pink.webp)](images/cloud%20pink.webp)<br><sub>cloud pink.webp</sub> |
+| [![Cloud_blue](images/Cloud_blue.webp)](images/Cloud_blue.webp)<br><sub>Cloud_blue.webp</sub> | [![DragonBallZ2](images/DragonBallZ2.webp)](images/DragonBallZ2.webp)<br><sub>DragonBallZ2.webp</sub> | [![edgerunner](images/edgerunner.webp)](images/edgerunner.webp)<br><sub>edgerunner.webp</sub> |
+| [![fallenangel111](images/fallenangel111.webp)](images/fallenangel111.webp)<br><sub>fallenangel111.webp</sub> | [![fallenangel1](images/fallenangel1.webp)](images/fallenangel1.webp)<br><sub>fallenangel1.webp</sub> | [![Flower-Bees](images/Flower-Bees.webp)](images/Flower-Bees.webp)<br><sub>Flower-Bees.webp</sub> |
+| [![forest231](images/forest231.webp)](images/forest231.webp)<br><sub>forest231.webp</sub> | [![GTO1](images/GTO1.webp)](images/GTO1.webp)<br><sub>GTO1.webp</sub> | [![hills6_monochrome](images/hills6_monochrome.webp)](images/hills6_monochrome.webp)<br><sub>hills6_monochrome.webp</sub> |
+| [![hills3_monochrome](images/hills3_monochrome.webp)](images/hills3_monochrome.webp)<br><sub>hills3_monochrome.webp</sub> | [![hxh3](images/hxh3.webp)](images/hxh3.webp)<br><sub>hxh3.webp</sub> | [![hxh11](images/hxh11.webp)](images/hxh11.webp)<br><sub>hxh11.webp</sub> |
+| [![jjk03](images/jjk03.webp)](images/jjk03.webp)<br><sub>jjk03.webp</sub> | [![jjk21](images/jjk21.webp)](images/jjk21.webp)<br><sub>jjk21.webp</sub> | [![jjk2_monochrome](images/jjk2_monochrome.webp)](images/jjk2_monochrome.webp)<br><sub>jjk2_monochrome.webp</sub> |
+| [![jjk_choso](images/jjk_choso.webp)](images/jjk_choso.webp)<br><sub>jjk_choso.webp</sub> | [![jjk_hakari](images/jjk_hakari.webp)](images/jjk_hakari.webp)<br><sub>jjk_hakari.webp</sub> | [![musashi6_monochrome](images/musashi6_monochrome.webp)](images/musashi6_monochrome.webp)<br><sub>musashi6_monochrome.webp</sub> |
+| [![musashi_gruvbox](images/musashi_gruvbox.webp)](images/musashi_gruvbox.webp)<br><sub>musashi_gruvbox.webp</sub> | [![neongenesis5](images/neongenesis5.webp)](images/neongenesis5.webp)<br><sub>neongenesis5.webp</sub> | [![oil_painting1](images/oil_painting1.webp)](images/oil_painting1.webp)<br><sub>oil_painting1.webp</sub> |
+| [![oil_painting2](images/oil_painting2.webp)](images/oil_painting2.webp)<br><sub>oil_painting2.webp</sub> | [![oil_painting4](images/oil_painting4.webp)](images/oil_painting4.webp)<br><sub>oil_painting4.webp</sub> | [![orangetunnel](images/orangetunnel.webp)](images/orangetunnel.webp)<br><sub>orangetunnel.webp</sub> |
+| [![pain](images/pain.webp)](images/pain.webp)<br><sub>pain.webp</sub> | [![samourai](images/samourai.webp)](images/samourai.webp)<br><sub>samourai.webp</sub> | [![smoking with you behind the supermarket](images/smoking%20with%20you%20behind%20the%20supermarket.webp)](images/smoking%20with%20you%20behind%20the%20supermarket.webp)<br><sub>smoking with you behind the supermarket.webp</sub> |
+| [![snk2_monochrome](images/snk2_monochrome.webp)](images/snk2_monochrome.webp)<br><sub>snk2_monochrome.webp</sub> | [![souleater11](images/souleater11.webp)](images/souleater11.webp)<br><sub>souleater11.webp</sub> | [![souleater_sun](images/souleater_sun.webp)](images/souleater_sun.webp)<br><sub>souleater_sun.webp</sub> |
+| [![souleater_moon](images/souleater_moon.webp)](images/souleater_moon.webp)<br><sub>souleater_moon.webp</sub> | [![souleater18](images/souleater18.webp)](images/souleater18.webp)<br><sub>souleater18.webp</sub> | [![wallhaven-vp2dxl](images/wallhaven-vp2dxl.webp)](images/wallhaven-vp2dxl.webp)<br><sub>wallhaven-vp2dxl.webp</sub> |
+| [![wallpaperred](images/wallpaperred.webp)](images/wallpaperred.webp)<br><sub>wallpaperred.webp</sub> | [![woman_monochrome](images/woman_monochrome.webp)](images/woman_monochrome.webp)<br><sub>woman_monochrome.webp</sub> |  |
