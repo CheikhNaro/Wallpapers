@@ -1,6 +1,6 @@
 # Wallpapers
 
-A curated collection of **427 wallpapers** (~300 MB) — anime, manga, landscapes, cars, cyberpunk and abstract art.
+A curated collection of **400+ wallpapers** (~300 MB) — anime, manga, landscapes, cars, cyberpunk and abstract art.
 
 Everything is `.webp`, so the repo stays light while keeping good visual quality.
 
